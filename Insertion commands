@@ -1,4 +1,4 @@
-    insert into Cart values('crt1011');
+ insert into Cart values('crt1011');
 
     insert into Customer values('cid100','ABCM1235','rajat','G-453','632014',9893135876, 'crt1011');
 
