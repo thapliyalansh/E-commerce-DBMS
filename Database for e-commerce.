@@ -1,4 +1,4 @@
- CREATE TABLE Cart
+CREATE TABLE Cart
     (
         Cart_id VARCHAR(7) NOT NULL,
         PRIMARY KEY(Cart_id)
@@ -7,6 +7,7 @@
     CREATE TABLE Customer
     (
         Customer_id VARCHAR(6) NOT NULL,
+        c_pass VARCHAR(10) NOT NULL,
         Name VARCHAR(20) NOT NULL,
         Address VARCHAR(20) NOT NULL,
         Pincode NUMBER(6) NOT NULL,
